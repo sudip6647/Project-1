@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav, a, button{
+        float: right;
+}
+nav a{
+    padding: 1rem 5%;
+    /* float: left; */
+    color: rgb(18, 18, 18);
+ 
+    text-decoration: none;
+    text-align: center;
+    /* position: fixed;
+    top: 0; */
+}
+nav a:hover{
+    background-color: rgb(5, 255, 38);
+    color:blue;
+}
+nav{
+    background-color:rgb(249, 246, 242);
+    padding: 2rem;
+    overflow: hidden; 
+    position: sticky;
+    top: 0;
+    border: green;
+}
+.photo button{
+    margin-top: 0.5rem;
+   border-radius: 20px;
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
+}
+.photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    position: sticky;
+    top: 0;
+    
+}
+/* SEction 1  */
+.green img{
+ float: right;
+width: 211px;
+height: 160px;
+margin-right: 5rem;
+}
+.part1 h1{
+    color: green;
+    font-family: cursive;
+}
+.part1{
+    margin: 1rem;
+}
+.button button{
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    float: left;
+    background-color: green;
+     color: white;
+     padding: 0.5rem;
+}
+
+/* section 3 */
+.collection{
+        float: left;
+        /* justify-content: center; */
+        padding: 2rem;
+    }
+    .responsive{
+        flex-wrap: wrap;
+    display: flex;
+        padding-top: 3rem;
+    }
+    
+    .gallery {
+    flex: 1 1 200px;
+    padding: 0.5rem;
+    /* float: left; */
+
+}
+
+.gallery img {
+    width: 340px;
+    height: 200px;
+}
+.collection{
+  /* margin: 5rem; */
+    float: left;
+    color: green;
+    /* background-color: yellow; */
+    width: 100%;
+}
+
+
+
+/* section 7 */
+.box{
+    margin-top: 0.5rem;
+        width: 70%;
+        height: 80px;
+     background-color: green;
+     color: white;
+     padding: 10rem 9rem;
+     text-align: center;
+     margin-left: 5rem;
+ }
+ .rest{
+    text-align: center;
+ }
+ .click button{
+
+float: left;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+     background-color: green;
+     color: white;
+     padding: 1rem;
+ }
+
+ /* section 8 */
+ .repet {
+    text-align: center;
+    
+ }
+ .border{
+ float: left;
+ justify-content: center;
+ padding-left: 1rem;
+}
+.class{
+     margin-left: 10rem;
+
+ }
+ 
+
+/* FOOTER START */
+	
+.content {
+    /* Add some styles for your main content */
+    padding: 20px;
+}
+

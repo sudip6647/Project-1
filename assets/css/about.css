@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+      /* section 1 */
+.container img{
+    width: 100px;
+}
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    padding: 1rem;
+    /* margin: 2rem; */
+    /* background-color: aqua; */
+}
+.right-navigation button{
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+}
+
+  
+  .right-navigation {
+    margin-left: auto; /* This will push the navigation to the right */
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between navigation items */
+    align-items: center; /* Vertically aligns navigation items */
+    padding: 0rem 3rem;
+    margin: 0;
+  }
+  
+  li {
+    margin: 0 15px; /* Adjusts spacing between navigation items horizontally */
+  }
+  
+  a {
+    padding: 0rem 2rem;
+    text-decoration: none;
+    color: #333; /* Change this to your desired link color */
+  }
+      /* section 2 */
+  .section{
+   display: flex;
+   justify-content: space-between;
+    /* background-color: #f0ecec; */
+    padding: 40px;
+    width: 100%;
+    /* margin-left: 10rem; */
+  }
+  .section img{
+    height: 500px;
+    width: 1500px;
+  }
+  .section, h1, p{
+    color: green;
+    margin: 0;
+    padding: 1rem;
+}
+.section button{
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: green;
+  color: white;
+}
+
+/* section 3 */
+.section3 .photo{
+  display: flex;
+flex-wrap: wrap;
+}
+
+.photo img{
+  padding: 1rem 3rem;
+
+}
+/* section 7 */
+.section7 button{
+justify-content: center;
+display: flex;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: green;
+  color: white;
+flex-wrap: wrap;
+}
+.line, h1, p{
+  text-align: center;
+}
+.box{
+  background-color: lightgreen;
+  width: 70%;
+  height: 300px;
+  margin: 0rem  13rem;
+}
+.box,h1, p{
+  padding: 1.5rem;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* section 8 */
+.section8{
+  background-color: antiquewhite;
+}
+.row1{
+  display: flex;
+}
+
+    /* section 10 */
+  footer{
+    background-color:lightgreen;
+    display: flex;
+  }
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+

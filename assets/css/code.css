@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        /* section 1 */
+header img{
+   
+    height: 100px;
+    padding: 1rem;
+    width: 100px;
+}
+header nav{
+    float: right;
+    padding: 3rem 5rem;
+}
+header nav a{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: green;
+}
+header button{
+    background-color: green;
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+    color: white;
+}
+
+    /* section 2 */
+.plant{
+        padding: 1rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+}
+.plant h1, p{
+        flex-basis: 25%;
+        color: green;
+        padding: 1rem;
+}
+.side img{
+      float: right;
+      height: 350px;
+      width: 500px;
+      padding: 0rem 2rem;
+}
+.unside{
+    padding: 0rem 2.5rem;
+} 
+.unside button{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+    margin: 1.5rem;
+}
+      /* section 2 */
+.features{
+        background-color: antiquewhite;
+        margin: 0rem 9rem;
+}
+.div1{
+    color: green;
+    padding: 2rem 4rem;
+}
+.carbon{
+    display: flex;
+    padding: 0.5rem 5rem;
+}
+.carbon img{
+    padding: 0rem 3rem;
+}
+
+       /* section 3 */
+.install{
+    margin: 5rem 9rem;
+}
+.div2{
+    color: green;
+}
+
+   /* section 4 */
+.founder{
+    margin: 5rem 9rem;
+    display: flex;
+}
+.div3{
+    color: green;
+}
+.div3 p{
+    padding: 1rem 5rem;
+}
+     /* section 4 */
+.div4{
+    justify-content: center;
+    text-align: center;
+    color: green;
+}
+.box{
+    background-color: lightgreen;
+    width: 70%;
+    height: 300px;
+    margin: 0rem  13rem;
+    color: green;
+    text-align: center;
+  }
+.box, h1, p{
+    padding: 2rem;
+}
+.register{
+    text-align: center;
+    padding: 1rem;
+}
+.register button{
+    background-color: green;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+}
+     /* section 5 */
+.vyana{
+    background-color: aliceblue;
+}
+.div5{
+    color: green;
+    text-align: center;
+}
+.three{
+    display: flex;
+    padding: 0.5rem 2rem;
+}
+.photo{
+    padding: 1rem 4rem;
+}
+
+/* section 7 */
+footer{
+    display: flex;
+    background-color: lightgreen;
+}
+.img img{
+    padding: 0.5rem 3rem;
+}
+
